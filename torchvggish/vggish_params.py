@@ -29,7 +29,7 @@ STFT_WINDOW_LENGTH_SECONDS = 0.025
 STFT_HOP_LENGTH_SECONDS = 0.010
 NUM_MEL_BINS = NUM_BANDS
 MEL_MIN_HZ = 125
-MEL_MAX_HZ = 7500
+MEL_MAX_HZ = 3000
 LOG_OFFSET = 0.01  # Offset used for stabilized log of input mel-spectrogram.
 EXAMPLE_WINDOW_SECONDS = 0.96  # Each example contains 96*3 = 288 10ms frames
 EXAMPLE_HOP_SECONDS = 0.96  # with zero overlap.
