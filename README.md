@@ -13,7 +13,7 @@ a feature embedding frontend for audio classification models. The weights are po
 ```python
 import torch
 
-model = torch.hub.load('harritaylor/torchvggish', 'vggish')
+model = torch.hub.load('promitbasak/torchvggish', 'vggish')
 model.eval()
 
 # Download an example audio file
